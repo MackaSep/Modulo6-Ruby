@@ -1,3 +1,5 @@
+# Ejercicio 1
+
 puts "Ingrese un número del 1 al 10"
 número = gets.chomp
 
@@ -25,11 +27,12 @@ else
     puts "#{numero} fuera de rango"
 end 
 
-#Ejercicio 2
+# Ejercicio 2
 
 numero_al_azar = rand(1..100)
 
-#
+
+
 respuestas_si = ["Sí, totalmente", "Sí claro, "Dale dale"]
 respuestas_no = ["No, ni lo pienses", "No, X", "Nada que ver"]
 respuesta_al_azar = rand(0..2)
